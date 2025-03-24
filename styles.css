@@ -1,0 +1,362 @@
+@font-face {
+  font-family: 'bsmsFont';
+#  src: url('http://medchem.rega.kuleuven.be/bsms/Alef-Regular.ttf');
+  src: url('http://medchem.rega.kuleuven.be/bsms/EncodeSans-Regular.ttf');
+}
+
+body {
+  background-color: #FCFCFC;
+  font-family: bsmsFont, sans-serif;
+  font-size: 15px;
+  color: #555;
+}
+
+#timer {
+  font-size: 1em;
+  font-weight: 10;
+  color: white;
+  padding: 20px;
+  width: 500px;
+  color: white;
+}
+
+#timer div {
+  display: inline-block;
+  min-width: 80px;
+  padding 15px;
+  background: #020b43;
+  border-radius: 10px;
+  border: 2px solid #030d52;
+  margin: 15px;
+}
+
+
+
+dt {
+  float: left;
+  clear: left;
+  width: 50px;
+  text-align: left;
+}
+
+dd {
+  margin: 0 0 0 60px;
+  padding: 0 0 0.5em 0;
+}
+
+#logos {
+  height: 80px;
+  width: 100%;
+}
+
+#navbar, #menubar, #homepageimg {
+  display: none;
+}
+
+#myheader {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #A00;
+}
+
+#mycontainer {
+  padding: 5px;
+}
+
+.logoimg {
+  height: 100%;
+  padding: 5px;
+  margin: 0px;
+}
+
+#hambimg {
+  height: 25%;
+  float: right;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  line-height: 40px;
+  border-left: 2px solid #A00;
+  border-right: 2px solid #A00;
+}
+
+#navbar .hmenuitem a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: #FC0;
+  height: 40px;
+  border-bottom: 2px solid #A00;
+  color: #555;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#navbar li:first-child {
+  border-top: 2px solid #A00;
+}
+
+.h3title{
+  color: #A00;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  padding: 0px;
+}
+
+.mymessage {
+  background-color: #FC0;
+  border: 2px solid #A00;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 3px;
+}
+
+.mywindow {
+  background-color: #FC0;
+  border: 2px solid #A00;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 3px;
+}
+
+.footleft {
+  float: left;
+  color: #A00;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.more {
+  color: #A00;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+#us {
+  color: #A00;
+  text-decoration: none;
+}
+
+.footright {
+  float: right;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.social {
+  height: 30px;
+  margin-top: 5px;
+}
+
+#foottext {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+  border-top: 1px solid #A00;
+  border-bottom: 1px solid #A00;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 10px;
+}
+
+.ind {
+ margin-left: 15px;
+}
+
+#row2 {
+  display: none;
+}
+
+.ind1, .ind2 {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+  width: 40px;
+}
+
+.ind3 {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.awidth {
+  width: 400px;
+}
+
+
+@media only screen and (min-width: 500px) {
+
+#mycontainer, #foottext, #myheader, #homepageimg {
+  width: 768px;
+  margin-top: 20px;
+}
+
+#homepageimg {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0px;
+  border-bottom: 1px solid #A00;
+}
+
+#homepageimg img {
+  width: 100%;
+}
+
+#mycontainer {
+  width: 100%;
+}
+
+#myheader {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#navbar {
+  display: block;
+  vertical-align: top;
+  width: 400px;
+}
+
+#logos {
+  display: inline-block;
+  width: 350px;
+}
+
+.more:hover, #us:hover {
+  text-decoration: underline;
+}
+
+#navbar .hmenuitem a, #navbar ul {
+  display: inline;
+  width: 100%;
+  background-color: transparent;
+  height: 40px;
+  border: 0px;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.hmenuitem {
+  margin-right: 20px;
+}
+
+#navbar .hmenuitem a.menulink:hover {
+  border-bottom: 2px solid #A00;
+}
+
+#navbar li:first-child {
+  border: 0px;
+}
+
+.thewindows {
+  height: 250px;
+  width: 100%;
+}
+
+.mywindow {
+  float: left;
+  box-shadow: 5px 3px 8px #AAA;
+  width: 275px;
+  height: 100%;
+}
+
+#hambimg {
+  display: none;
+}
+
+#navbar {
+  display: inline-block;
+  float: right;
+}
+
+#navbar ul {
+  padding: 0px;
+  line-height: 10px;
+}
+
+.hmenuitem {
+  display: inline;
+}
+
+#navbar .hmenuitem a {
+  height: 40px;
+  color: #555;
+  font-size: 15px;
+}
+
+.h3title {
+  margin-bottom: 1em;
+}
+
+.social {
+  margin-left: 12px;
+  margin-top: 0px;
+  vertical-align: top;
+  float: left;
+}
+
+.social:hover, .footright:hover, .hmenuitem:hover {
+  opacity: 0.3;
+}
+
+.row2 {
+  display: block;
+  padding-top: 25px;
+  margin-left: 0px;
+}
+
+#copy {
+  text-align: center;
+  font-size: 12px;
+}
+
+.awidth {
+  width: 600px;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+body {
+  background-image: url('logo0.png');
+  background-repeat: no-repeat;
+  background-size: 900px 900px;
+  background-color: #FFF;
+  width: 900px;
+}
+
+#mycontainer, #foottext, #myheader, #homepageimg {
+  width: 900px;
+}
+
+#navbar {
+  width: 550px;
+}
+
+.row2 {
+  margin-top: -10px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+
+.social {
+  float: right;
+}
+
+.awidth {
+  width: 800px;
+}
+
+
+}
+
+
