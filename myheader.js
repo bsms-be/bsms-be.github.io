@@ -9,7 +9,7 @@ document.write("\
 <LI class='hmenuitem'><A class='menulink' HREF='links.htm' id='links'>links</A>\
 <LI class='hmenuitem'><DIV class='row2'><A HREF='contact.htm'><IMG class='social' SRC='img/ml.png'></A>\
 <A HREF='http://facebook.com/bsmsnews/' TARGET='_top'><IMG class='social' SRC='img/fb.png'></A>\
-<A HREF='http://twitter.com/bsmsnews/' TARGET='_top'><IMG class='social' SRC='img/tw.png'></A>\
+<A HREF='https://www.linkedin.com/company/thebsms/' TARGET='_top'><IMG class='footright' SRC='img/in.png'></A>\
 <A HREF='http://bsms.be/' TARGET='_top'><IMG class='social' SRC='img/home.png'></A></DIV>\
 <UL>\
 </DIV>\
