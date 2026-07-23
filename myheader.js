@@ -11,7 +11,7 @@ document.write("\
 <A HREF='http://facebook.com/bsmsnews/' TARGET='_top'><IMG class='social' SRC='img/fb.png'></A>\
 <A HREF='http://twitter.com/bsmsnews/' TARGET='_top'><IMG class='social' SRC='img/tw.png'></A>\
 <A HREF='bsmsnews.htm' TARGET='_top'><IMG  class='social' SRC='img/rss.png'></A>\
-<A HREF='http://www.bsms.be/' TARGET='_top'><IMG class='social' SRC='img/home.png'></A></DIV>\
+<A HREF='https://bsms.be/' TARGET='_top'><IMG class='social' SRC='img/home.png'></A></DIV>\
 <UL>\
 </DIV>\
 ");
