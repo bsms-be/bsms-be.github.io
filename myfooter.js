@@ -10,7 +10,7 @@ document.write("\
 <A HREF='http://www.bsms.be/contact.htm'><IMG  class='footright' SRC='img/ml.png'></A>\
 <A HREF='http://facebook.com/bsmsnews' TARGET='_top'><IMG  class='footright' SRC='img/fb.png'></A>\
 <A HREF='http://twitter.com/bsmsnews' TARGET='_top'><IMG class='footright' SRC='img/tw.png'></A>\
-<A HREF='https://bsms.be'><IMG class='footright' SRC='img/home.png'></A>\
+<A HREF='http://bsms.be'><IMG class='footright' SRC='img/home.png'></A>\
 </DIV>\
 <DIV class='copy'>this is a cookiefree website</DIV>\
 ");
